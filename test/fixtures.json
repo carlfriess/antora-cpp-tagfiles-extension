@@ -213,5 +213,30 @@
         "component": "url"
       }
     ]
+  },
+  {
+    "name": "Members of the global namespace in MrDocs tagfiles",
+    "tests": [
+      {
+        "input": "cpp:setup[]",
+        "output": "xref:reference:setup.adoc[setup]",
+        "component": "mrdocs"
+      },
+      {
+        "input": "cpp:lib::widget[]",
+        "output": "xref:reference:lib/widget.adoc[lib::widget]",
+        "component": "mrdocs"
+      },
+      {
+        "input": "cpp:lib::widget::update[]",
+        "output": "xref:reference:lib/widget/update.adoc[lib::widget::update]",
+        "component": "mrdocs"
+      },
+      {
+        "input": "cpp:teardown[]",
+        "output": "teardown",
+        "component": "mrdocs"
+      }
+    ]
   }
 ]

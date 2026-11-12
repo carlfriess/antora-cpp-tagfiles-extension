@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tagfile>
+<compound kind="namespace">
+  <name/>
+  <filename>index.adoc</filename>
+  <member kind="function">
+    <type>void</type>
+    <name>setup</name>
+    <anchorfile>setup.adoc</anchorfile>
+    <anchor/>
+    <arglist>()</arglist>
+  </member>
+</compound>
+<compound kind="namespace">
+  <name>lib</name>
+  <filename>lib.adoc</filename>
+  <class kind="class">lib::widget</class>
+</compound>
+<compound kind="class">
+  <name>lib::widget</name>
+  <filename>lib/widget.adoc</filename>
+  <member kind="function">
+    <type>void</type>
+    <name>update</name>
+    <anchorfile>lib/widget/update.adoc</anchorfile>
+    <anchor/>
+    <arglist>()</arglist>
+  </member>
+</compound>
+</tagfile>
