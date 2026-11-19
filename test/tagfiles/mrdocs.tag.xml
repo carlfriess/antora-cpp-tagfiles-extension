@@ -19,10 +19,22 @@
 <compound kind="class">
   <name>lib::widget</name>
   <filename>lib/widget.adoc</filename>
+  <class kind="class">lib::widget::part</class>
   <member kind="function">
     <type>void</type>
     <name>update</name>
     <anchorfile>lib/widget/update.adoc</anchorfile>
+    <anchor/>
+    <arglist>()</arglist>
+  </member>
+</compound>
+<compound kind="class">
+  <name>lib::widget::part</name>
+  <filename>lib/widget/part.adoc</filename>
+  <member kind="function">
+    <type>void</type>
+    <name>attach</name>
+    <anchorfile>lib/widget/part/attach.adoc</anchorfile>
     <anchor/>
     <arglist>()</arglist>
   </member>

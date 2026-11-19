@@ -238,5 +238,30 @@
         "component": "mrdocs"
       }
     ]
+  },
+  {
+    "name": "Members of nested classes in MrDocs tagfiles",
+    "tests": [
+      {
+        "input": "cpp:lib::widget::part[]",
+        "output": "xref:reference:lib/widget/part.adoc[lib::widget::part]",
+        "component": "mrdocs"
+      },
+      {
+        "input": "cpp:lib::widget::part::attach[]",
+        "output": "xref:reference:lib/widget/part/attach.adoc[lib::widget::part::attach]",
+        "component": "mrdocs"
+      },
+      {
+        "input": "cpp:lib::widget::part::detach[]",
+        "output": "xref:reference:lib/widget/part.adoc[lib::widget::part::detach]",
+        "component": "mrdocs"
+      },
+      {
+        "input": "cpp:lib::widget::resize[]",
+        "output": "xref:reference:lib/widget.adoc[lib::widget::resize]",
+        "component": "mrdocs"
+      }
+    ]
   }
 ]
